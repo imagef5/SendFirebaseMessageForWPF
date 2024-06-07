@@ -10,10 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="pentachord-notification-firebase.json" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Resources\sendMessage.ico" />
   </ItemGroup>
 
@@ -22,10 +18,6 @@
     <PackageReference Include="FirebaseAdmin" Version="3.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="pentachord-notification-firebase.json" />
   </ItemGroup>
 
 </Project>
